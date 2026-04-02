@@ -13,6 +13,9 @@ public class Variables {
         double mydouble = 5.3;
         System.out.println(mydouble);
 
+        char mycharacter = 'R';
+        System.out.println(mycharacter);
+
         String wishes = "I am Rahul Kumar";
         System.out.println(wishes);
 
