@@ -1,6 +1,10 @@
 import java.lang.*;
-public class First {
+public class Pattern {
     public static void main(String[] args) {
-        System.out.print("My name is Rahul Kumar");
+        System.out.println("*");
+        System.out.println("*   *");
+        System.out.println("*   *   *");
+        System.out.println("*   *   *   *");
+        System.out.println("*   *   *   *   *");
     }
 }
