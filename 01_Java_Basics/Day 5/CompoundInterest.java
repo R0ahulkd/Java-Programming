@@ -6,10 +6,10 @@ public class CompoundInterest {
         System.out.print("Enter the Principal Amount : ");
         int p = input.nextInt();
         System.out.print("Enter the rate of Interest : ");
-        double r = input.nextDouble();
+        float r = input.nextFloat();
         System.out.print("Enter the time : ");
-        double t = input.nextDouble();
-        double CI = p*(1+r/100)*t;
+        float t = input.nextFloat();
+        double CI = p * Math.pow((1+r/100),t);
         System.out.println("Compound Interest = " + CI);
     }
 }
