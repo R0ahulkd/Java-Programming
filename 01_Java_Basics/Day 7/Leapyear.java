@@ -6,14 +6,9 @@ public class Leapyear {
         System.out.print("Enter a year : ");
         int year = input.nextInt();
 
-        if (year % 400 == 0){
+        if (year % 400 == 0 || (year % 4 == 0 && year % 100 != 0)){
             System.out.println(year + " is a Leap Year.");
-        } else if (year % 100 == 0) {
-            System.out.println(year + " is not a Leap Year");
-        } else if (year % 4 == 0) {
-            System.out.println(year + " is a Leap Year");
-        }
-        else {
+        } else {
             System.out.println(year + " is not a Leap Year");
         }
     }
