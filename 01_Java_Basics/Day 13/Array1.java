@@ -10,5 +10,11 @@ public class Array1 {
             System.out.println(myArr2[i]);
             i++;
         }
+
+        i = 0;
+        while (i < myArr2.length) {
+            System.out.println(myArr2[i]);
+            i++;
+        }
     }
 }
