@@ -7,10 +7,7 @@ public class ReverseArray {
     }
     public static int[] reverse(int[] Arr) {
         int i = 0, j = Arr.length;
-        while (i < Arr.length) {
-            if (i == (Arr.length)/2) {
-                break;
-            }
+        while (i < Arr.length/2) {
             int temp = Arr[j-1];
             Arr[j-1] = Arr[i];
             Arr[i] = temp;
