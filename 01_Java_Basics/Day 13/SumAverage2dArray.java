@@ -17,7 +17,9 @@ public class SumAverage2dArray {
             i++;
         }
         System.out.println("Sum of All Elements : " + sum);
-        double average = sum/count;
+        double sum1 = (double) sum;
+        double count1 = (double) count;
+        double average = (sum1/count1);
         System.out.println("Average of All Elements : " + average);
     }
 }
