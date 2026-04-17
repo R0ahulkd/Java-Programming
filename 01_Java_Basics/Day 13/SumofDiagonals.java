@@ -5,7 +5,8 @@ public class SumofDiagonals {
         System.out.println("Sum of Diagonals : " + sum);
     }
     public static int SumofDiagonals(int[][] myArr) {
-        int i = 0, j = 0;
+        int i = 0;
+        int j = 0;
         int sum = 0;
         while (i < myArr.length) {
             j = i;
