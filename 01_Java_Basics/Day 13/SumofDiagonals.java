@@ -20,7 +20,7 @@ public class SumofDiagonals {
                 sum += myArr[j][i];
             }
             j++;
-            i--;
+            i += 1;
         }
         return sum;
     }
