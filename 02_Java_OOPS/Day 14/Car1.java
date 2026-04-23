@@ -4,5 +4,6 @@ public class Car1 {
 
     public void Addfuel() {
         System.out.println("Fuel filling");
+        System.out.println(addfuel);
     }
 }
