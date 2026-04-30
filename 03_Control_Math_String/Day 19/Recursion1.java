@@ -12,6 +12,6 @@ public class Recursion1 {
         if (num == 1) {
             return 1;
         }
-        return num * Factorial(num-1);
+        return num * Factorial(num - 1);
     }
 }
