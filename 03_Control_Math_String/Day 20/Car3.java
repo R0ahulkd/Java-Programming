@@ -28,7 +28,7 @@ public class Car3 {
     }
 
     public static void main(String[] args) {
-        Car3 swift = new Car3(4,4,120,"Swift","SW8A","Maruti");
+        Car3 swift = new Car3(4,4,120,"Swift","SW8A4","Maruti");
         System.out.println(swift.toString());
     }
 }
