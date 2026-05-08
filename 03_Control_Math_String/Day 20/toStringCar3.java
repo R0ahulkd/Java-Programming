@@ -1,4 +1,4 @@
-public class Car3 {
+public class toStringCar3 {
     int noOfWheels;
     int noOfDoors;
     int maxSpeed;
@@ -6,7 +6,7 @@ public class Car3 {
     String modelNumber;
     String company;
 
-    public Car3(int noOfWheels, int noOfDoors, int maxSpeed, String name, String modelNumber, String company) {
+    public toStringCar3(int noOfWheels, int noOfDoors, int maxSpeed, String name, String modelNumber, String company) {
         this.noOfWheels = noOfWheels;
         this.noOfDoors = noOfDoors;
         this.maxSpeed = maxSpeed;
@@ -28,7 +28,7 @@ public class Car3 {
     }
 
     public static void main(String[] args) {
-        Car3 swift = new Car3(4,4,120,"Swift","SW8A4","Maruti");
+        toStringCar3 swift = new toStringCar3(4,4,120,"Swift","SW8A4","Maruti");
         System.out.println(swift.toString());
     }
 }
