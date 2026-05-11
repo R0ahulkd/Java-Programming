@@ -17,6 +17,10 @@ public class Car4 {
         return color;
     }
 
+    public void setColor(String color){
+        this.color = color;
+    }
+
     public String getModel(){
         return model;
     }
