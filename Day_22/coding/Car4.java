@@ -4,7 +4,11 @@ public class Car4 {
     public String color;
     public String model;
     private double fuelLevel;
-    private long costOfPurchase;
+    long costOfPurchase;
+
+    public Car4() {
+
+    }
 
     public Car4(String color, String model, double fuelLevel, long costOfPurchase) {
         this.color = color;
