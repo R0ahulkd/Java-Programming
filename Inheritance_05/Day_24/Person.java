@@ -11,7 +11,6 @@ public class Person {
         this.id = id;
     }
     
-
     @Override
     public boolean equals(Object obj) {
         if (!(obj instanceof Person)){
