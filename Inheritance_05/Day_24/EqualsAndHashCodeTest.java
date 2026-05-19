@@ -1,6 +1,7 @@
 package Inheritance_05.Day_24;
 
 public class EqualsAndHashCodeTest {
+    
     public static void main(String[] args) {
         Person person1 = new Person("Rahul",31,"001");
         Person person2 = new Person("Rahul",31,"001");
