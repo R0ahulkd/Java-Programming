@@ -1,6 +1,15 @@
 package Polymorphism.Day_28;
 
 public class Overloading {
+
+    Overloading() {
+        System.out.println("Default Constructor.");
+    }
+
+    Overloading(String pop) {
+        System.out.println(pop);
+    }
+
     public int sum (int a,int b) {
         return a + b;
     }
